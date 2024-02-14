@@ -1,0 +1,39 @@
+<p>login works!</p>
+
+<p>{{title}}</p>
+<p>{{varpc}}</p>
+
+<button (click) = 'sendMessage()'>Click</button>
+
+<p *ngIf="changecolor; else elseblock "> If Block </p>
+<ng-template #elseblock>
+    <p>This is a else block</p>
+</ng-template>
+
+<!-- <p [style.background-color]="color">{{title}}</p>
+<img [src] = "imageUrl" alt="image is missing"/>
+<br>
+<img src = "{{ imageUrl }}" alt = "Hoga nahi"/>
+<h1 class="colorred">This text be red color</h1>
+<h1 [style.color]="changecolor ? 'red' : 'blue'">This text be red color</h1>
+
+<button (click) = "buttonClick()">Click Here</button> -->
+<!-- 
+    <input type="text" (keyup) = "onKeyUp($event)">
+--> 
+
+<!-- 
+<input type="text" (keyup.enter) = "onKeyUp()">
+-->
+
+<!--
+<input type="text" (keyup.enter) = "onKeyUp(input.value)" #input>
+-->
+
+
+<!-- <input type="text" [value]="str" (keyup.enter)="onKeyUp()"/>
+<br>
+<input type="text" [(ngModel)]="str"/> -->
+
+
+
